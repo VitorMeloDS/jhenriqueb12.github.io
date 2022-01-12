@@ -7,15 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/lista.png">
     <title>Mini projeto</title>
-    <h1>MENU</h1>
-    <ul disc>
-        <li><a href="html/mini-projeto-lista-feira.html"><Strong>LISTA DE COMPRAS - VITOR MELO DA SILVA</Strong></a></li>
-        <li><a href="html/mini-projeto-receita.html"><Strong>RECEITA - ANDRÉ LUIZ CARDOSO DA SILVA</Strong></a></li>
-        <li><a href="html/mini-projeto-atividades.html"><Strong>LISTA DE ATIVIDADES - JOSÉ HENRIQUE BARROS MATEUS CORREIA</Strong></a></li>
-    </ul>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1> <strong>MINI PROJETO ITWB</strong></h1>
-    <p> Primeiro projeto da matéria de <strong><mark>Introdução à Tecnologias Web (ITWB)</mark></strong> do curso de <i>Sistemas de Informação-IFAL</i></p>
+    <header class="cabecalha">
+        <img class="cabecalho-imagem" src="img/lista.png" alt="logo">
+        <nav class="cabecalho-menu">
+            <input class="cabecalho-botao" type="button" value="LISTA DE COMPRAS"> <a href="html/mini-projeto-lista-feira.html"></a>
+            <input class="cabecalho-botao" type="button" value="RECEITA DE PUDIM"><a href="html/mini-projeto-receita.html"></a>
+            <input class="cabecalho-botao" type="button" value="LISTA DE ATIVIDADES"><a href="html/mini-projeto-atividades.html"><Strong></a>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section class="principal-conteudo">
+            <h1 class="principal-conteudo-titulo"><strong>MINI PROJETO ITWB</strong></h1>
+            <p class="principal-conteudo-paragrafo"> Primeiro projeto da matéria de <strong>Introdução à Tecnologias Web (ITWB)</strong> do curso de <i>Sistemas de Informação-IFAL</i></p>
+            <input class="principal-conteudo-botao" type="button" value="Veja o código">
+        </section>
+        <div>
+            <img class="principal-conteudo-imagem" src="img/produtividade.jpg" alt="Produtividade">
+        </div>
+    </main>
+
+    <div class="sencundario-conteudo">
+        <h1 class="sencundario-conteudo-titulo">Lista de Atividades:</h1>
+        <p class="sencundario-conteudo-paragrafo">1. Incluir estilos (CSS) para formatação das cores do texto e do background dos elementos (observando a harmonia entre as cores);</p>
+        <p class="sencundario-conteudo-paragrafo">2. Formatar as fontes do site, utilizando ao menos uma fonte do Google Fonts, a partir de um arquivo CSS externo.</p>
+        <p class="sencundario-conteudo-paragrafo">3. Organizar os conteúdos de cada página utilizando ao menos 3 tags semânticas de agrupamento, de forma apropriada (ex: tags para delimitar cabeçalho, rodapé, barra de navegação, seções, etc.).</p>
+        <p class="sencundario-conteudo-paragrafo">4. Apresentar conteúdo que utilize os seguintes recursos (não precisa ser em todo o site, mas conteúdos específicos):</p>
+        <p class="sencundario-conteudo-paragrafo">5. bloco centralizado</p>
+        <p class="sencundario-conteudo-paragrafo">6. sombras (em caixa ou texto)</p>
+        <p class="sencundario-conteudo-paragrafo">7. bordas decoradas e/ou arredondadas</p>
+        <p class="sencundario-conteudo-paragrafo">8. margens e preenchimentos (padding) personalizados</p>
+    </div>
+
+    <footer class="rodape">
+        <h2 class="rodape-titulo">Professor: Iran Rodrigues</h2>
+    </footer>
 </body>
 </html>
