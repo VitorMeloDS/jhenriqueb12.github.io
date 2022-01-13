@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Ubuntu&display=swap');
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.principal-conteudo-atividade {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.principal-imagem-atividade {
+    height: 400px;
+    margin: 40px 0;
+}
+
+.principal-titulo-atividade {
+    font-family: 'Orelega One', sans-serif;
+    font-size: 40px;
+    padding-bottom: 14px;
+}
+
+.principal-titulo-paragrafo {
+    font-family: 'Ubunto', 'sans-serif';
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.principal-titulo2-atividade {
+    font-family: 'Orelega One', sans-serif;
+    font-size: 24px;
+    padding-bottom: 6px;
+}
+
+.principal-lista-atividade {
+    font-family: 'Ubunto', 'sans-serif';
+    font-size: 18px;
+}
