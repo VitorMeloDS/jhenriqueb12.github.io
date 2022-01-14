@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Ubuntu&display=swap');
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.principal-conteudo-compras {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.principal-imagem-compras {
+    border-radius: 7px;
+    width: 600px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 40px;
+}
+
+.principal-titulo-compras {
+    font-family: 'Orelega One', sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.principal-titulo-paragrafo {
+    font-family: 'Ubunto', 'sans-serif';
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.principal-titulo2-compras {
+    font-family: 'Orelega One', sans-serif;
+    font-size: 24px;
+    padding-bottom: 6px;
+}
+
+.principal-lista-compras {
+    font-family: 'Ubunto', 'sans-serif';
+    font-size: 18px;
+    margin-right: 400px;
+}
